@@ -1,0 +1,25 @@
+[project]
+name = "rishtey-wali-aunty"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alishba Wajahat", email = "alishbawajahat867@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "bs4>=0.0.2",
+    "chainlit>=2.6.2",
+    "litellm>=1.74.3",
+    "openai-agents>=0.1.0",
+    "selenium>=4.34.2",
+    "streamlit>=1.47.0",
+    "webdriver-manager>=4.0.2",
+]
+
+[project.scripts]
+rishtey-wali-aunty = "rishtey_wali_aunty:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
